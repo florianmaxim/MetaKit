@@ -4,6 +4,23 @@
 
 Introducing meta objects.
 
+```swift
+import SceneKit
+import MetaKit
+
+class GameViewController: UIViewController {
+
+override func viewDidLoad() {
+super.viewDidLoad()
+
+var m = Meta(_view: self.view as! SCNView)
+
+var c = Cube(width: 1, height: 1, length: 1)
+
+}
+}
+```
+
 ## Basic concepts
 
 Meta objects are basically objects extended by methods that objects in the real world do not have. 
