@@ -10,14 +10,14 @@ import MetaKit
 
 class GameViewController: UIViewController {
 
-override func viewDidLoad() {
-super.viewDidLoad()
+    override func viewDidLoad() {
+    super.viewDidLoad()
 
-var m = Meta(_view: self.view as! SCNView)
+    var m = Meta(_view: self.view as! SCNView)
 
-var c = Cube(width: 1, height: 1, length: 1)
+    var c = Cube(width: 1, height: 1, length: 1)
 
-}
+    }
 }
 ```
 
